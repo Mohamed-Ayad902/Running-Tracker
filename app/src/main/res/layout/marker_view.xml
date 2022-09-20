@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/mRoot"
+    android:padding="@dimen/_8sdp"
+    android:background="@color/dark_gray"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/marker_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:text="Date"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_18ssp" />
+
+    <TextView
+        android:id="@+id/marker_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:text="Duration"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_18ssp" />
+
+    <TextView
+        android:id="@+id/marker_avgSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:text="Avg Speed"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_18ssp" />
+
+    <TextView
+        android:id="@+id/marker_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:text="Distance"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_18ssp" />
+
+    <TextView
+        android:id="@+id/marker_calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:text="Calories Burned"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_18ssp" />
+
+
+</LinearLayout>
